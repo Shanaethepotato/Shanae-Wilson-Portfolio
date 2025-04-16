@@ -72,15 +72,20 @@ h2{
     background-color: #fff;
     padding: 1.5rem;
     border-radius: 8px;
-    height: 7rem;
+    height: 17rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+h4{
+    text-align: center;
+
+}
 .grid-item:hover {
     transform: translateY(-5px);
+    background-color:#494547;
 }
 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
     margin: 1rem auto;
